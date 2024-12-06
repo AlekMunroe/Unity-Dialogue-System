@@ -1,0 +1,1357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8903444065766137240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5640, y: 584}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -8903444065766137240}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 800984349462609387}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -8903444065766137240}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 6913500383563004189}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: See, it works!
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &-8549982943653367378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1736, y: 536}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -8549982943653367378}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2565955839232314201}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -8549982943653367378}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Choice 2
+        node: {fileID: 7091086598156466916}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Great! You chose 3
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &-6874029368273326087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4536, y: 600}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -6874029368273326087}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1613329732475980483}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -6874029368273326087}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 561068564449751044}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: 'Now, if you are smart you might have looked at the dialogue graph '
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &-6399388386580437088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1720, y: 280}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -6399388386580437088}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2565955839232314201}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -6399388386580437088}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Choice 1
+        node: {fileID: 7091086598156466916}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Great! You chose 2
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &-6341983846490109109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f1d94eb19b34337aef9a24967d50fd, type: 3}
+  m_Name: Camera Switch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2981.2185, y: 493.7707}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -6341983846490109109}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1718842333401088058}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -6341983846490109109}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 39978057275043590}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  disablePlayerCam: 0
+  playerCam: 
+  disableCam: Cam01
+  enableCam: Cam02
+--- !u!114 &-5923047110814572885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 168, y: -88}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -5923047110814572885}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1907724654075817386}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -5923047110814572885}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 7211499799338466869}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Welcome to the tutorial.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &-5864434608558159140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f1d94eb19b34337aef9a24967d50fd, type: 3}
+  m_Name: Camera Switch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3656, y: 488}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -5864434608558159140}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 8086461879575298010}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -5864434608558159140}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 1718842333401088058}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  disablePlayerCam: 1
+  playerCam: 
+  disableCam: Cam02
+  enableCam: Cam03
+--- !u!114 &-4283965961301818093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d282fa4354750450e900e914f1583545, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -404.5, y: -82.5}
+  ports:
+    keys:
+    - nextNode
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -4283965961301818093}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7211499799338466869}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nextNode: {fileID: 0}
+--- !u!114 &-3469368166028516338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1384, y: 472}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -3469368166028516338}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7091086598156466916}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -3469368166028516338}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Choice 3
+        node: {fileID: 7091086598156466916}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: No? Go back and make another choice.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &-1907724654075817386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 467.23007, y: -81.060005}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -1907724654075817386}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6315856225122036470}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -1907724654075817386}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -5923047110814572885}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Everything going forward will show each aspect of the dialogue system.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &-1613329732475980483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4792.665, y: 581.4958}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -1613329732475980483}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 9017453616606964498}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -1613329732475980483}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -6874029368273326087}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: and you would have noticed there is no audio playing.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f1bd816e3cb564e8f4f8f29e2ed6fb, type: 3}
+  m_Name: DemoDialogueGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4283965961301818093}
+  - {fileID: 7211499799338466869}
+  - {fileID: -5923047110814572885}
+  - {fileID: -1907724654075817386}
+  - {fileID: 6315856225122036470}
+  - {fileID: 7091086598156466916}
+  - {fileID: -3469368166028516338}
+  - {fileID: 4806308818274538116}
+  - {fileID: -6399388386580437088}
+  - {fileID: -8549982943653367378}
+  - {fileID: 2565955839232314201}
+  - {fileID: 39978057275043590}
+  - {fileID: -6341983846490109109}
+  - {fileID: 1718842333401088058}
+  - {fileID: 8086461879575298010}
+  - {fileID: -5864434608558159140}
+  - {fileID: 561068564449751044}
+  - {fileID: -6874029368273326087}
+  - {fileID: -1613329732475980483}
+  - {fileID: 9017453616606964498}
+  - {fileID: 6913500383563004189}
+  - {fileID: -8903444065766137240}
+  - {fileID: 800984349462609387}
+  - {fileID: 9209067647827683752}
+  - {fileID: 8089944806985993355}
+  startNode: {fileID: -4283965961301818093}
+--- !u!114 &39978057275043590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2664, y: 504}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 39978057275043590}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6341983846490109109}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 39978057275043590}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Choice 1
+        node: {fileID: 2565955839232314201}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Now let's change the camera.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &561068564449751044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165697c2db8b9467fb0fce6930c90634, type: 3}
+  m_Name: Destroy
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4232, y: 568}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 561068564449751044}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6874029368273326087}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 561068564449751044}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 8086461879575298010}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectToDestroy: Forest
+--- !u!114 &800984349462609387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5971.5684, y: 596.8859}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 800984349462609387}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 9209067647827683752}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 800984349462609387}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -8903444065766137240}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Now, it's your turn! Create new nodes or test the existing ones!
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &1718842333401088058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2fba46f1ceb431e8c23a25c534f50e, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3384, y: 536}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 1718842333401088058}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5864434608558159140}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 1718842333401088058}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -6341983846490109109}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  delayTime: 1.5
+--- !u!114 &2565955839232314201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680271590a95140fdba1c40dfc3c6148, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2233.8127, y: 311.99323}
+  ports:
+    keys:
+    - input
+    - Choice 0
+    - Choice 1
+    values:
+    - _fieldName: input
+      _node: {fileID: 2565955839232314201}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 4806308818274538116}
+        reroutePoints: []
+      - fieldName: nextNode
+        node: {fileID: -6399388386580437088}
+        reroutePoints: []
+      - fieldName: nextNode
+        node: {fileID: -8549982943653367378}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Choice 0
+      _node: {fileID: 2565955839232314201}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7091086598156466916}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Choice 1
+      _node: {fileID: 2565955839232314201}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 39978057275043590}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Would you like to make another choice?
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  objectName: ChoiceAudioSource_Null
+  choices:
+  - choiceText: Yes
+  - choiceText: No
+--- !u!114 &4806308818274538116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1704, y: 24}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 4806308818274538116}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2565955839232314201}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 4806308818274538116}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Choice 0
+        node: {fileID: 7091086598156466916}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Great! You chose 1
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &6315856225122036470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 760, y: -72}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 6315856225122036470}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 7091086598156466916}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 6315856225122036470}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -1907724654075817386}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: First, let's make a choice!
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &6913500383563004189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5368, y: 600}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 6913500383563004189}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -8903444065766137240}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 6913500383563004189}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 9017453616606964498}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: SFX
+  dialogueText: Ding Dong!
+  audioClip: {fileID: 8300000, guid: 4ba4149a134fd2f41a3a7167e1ac849d, type: 3}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &7091086598156466916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680271590a95140fdba1c40dfc3c6148, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1091.5902, y: -58.070007}
+  ports:
+    keys:
+    - input
+    - Choice 0
+    - Choice 1
+    - Choice 2
+    - Choice 3
+    values:
+    - _fieldName: input
+      _node: {fileID: 7091086598156466916}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 6315856225122036470}
+        reroutePoints: []
+      - fieldName: nextNode
+        node: {fileID: -3469368166028516338}
+        reroutePoints: []
+      - fieldName: Choice 0
+        node: {fileID: 2565955839232314201}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Choice 0
+      _node: {fileID: 7091086598156466916}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 4806308818274538116}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Choice 1
+      _node: {fileID: 7091086598156466916}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6399388386580437088}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Choice 2
+      _node: {fileID: 7091086598156466916}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -8549982943653367378}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Choice 3
+      _node: {fileID: 7091086598156466916}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3469368166028516338}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Go on, make a choice.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  objectName: ChoiceAudioSource_Null
+  choices:
+  - choiceText: I choose 1
+  - choiceText: 2 is better
+  - choiceText: 3 is also an option
+  - choiceText: No.
+--- !u!114 &7211499799338466869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -88, y: -104}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 7211499799338466869}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5923047110814572885}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 7211499799338466869}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -4283965961301818093}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Hi, I'm Alek. The developer of this dialogue system.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &8086461879575298010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3912, y: 568}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 8086461879575298010}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 561068564449751044}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 8086461879575298010}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -5864434608558159140}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Now let's destroy an object.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &8089944806985993355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a697d5fc057824889bfd2fe5253ce8e3, type: 3}
+  m_Name: End
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6659.518, y: 652.29126}
+  ports:
+    keys:
+    - input
+    values:
+    - _fieldName: input
+      _node: {fileID: 8089944806985993355}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 9209067647827683752}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+--- !u!114 &9017453616606964498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5080, y: 600}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 9017453616606964498}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6913500383563004189}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 9017453616606964498}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -1613329732475980483}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: I am too lazy to record voice lines for this.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null
+--- !u!114 &9209067647827683752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6291.6885, y: 630.74475}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 9209067647827683752}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 8089944806985993355}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 9209067647827683752}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 800984349462609387}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Alek
+  dialogueText: Thank you for downloading this project!
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  targetAnimationObjectName: 
+  nextNode: {fileID: 0}
+  objectName: DialogueAudioSource_Null

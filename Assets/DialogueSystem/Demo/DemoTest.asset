@@ -1,0 +1,720 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9219739279416973714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -808, y: 24}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -9219739279416973714}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -2428321645813152542}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -9219739279416973714}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Test
+  dialogueText: Test
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+--- !u!114 &-6962090570863234801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f1d94eb19b34337aef9a24967d50fd, type: 3}
+  m_Name: Camera Switch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -312, y: -56}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -6962090570863234801}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2299827051870374064}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -6962090570863234801}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -2428321645813152542}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+  disablePlayerCam: 1
+  playerCam: PlayerCamera_Cam01
+  disableCam: Demo_NPC_Cam2
+  enableCam: Demo_NPC_Cam1
+--- !u!114 &-5646640554281605270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae366b8585f80457386e342384c4b4c5, type: 3}
+  m_Name: Player Freeze
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2088, y: 56}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -5646640554281605270}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3888240308193415508}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -5646640554281605270}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 6139159003301733982}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+  freezePlayer: 0
+--- !u!114 &-3888240308193415508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a697d5fc057824889bfd2fe5253ce8e3, type: 3}
+  m_Name: End
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2376, y: 88}
+  ports:
+    keys:
+    - input
+    values:
+    - _fieldName: input
+      _node: {fileID: -3888240308193415508}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -5646640554281605270}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+--- !u!114 &-3463448421942353358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 536, y: -72}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -3463448421942353358}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -2820458111465507384}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -3463448421942353358}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 6122499750953490694}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Player
+  dialogueText: Hello
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+--- !u!114 &-2820458111465507384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f1d94eb19b34337aef9a24967d50fd, type: 3}
+  m_Name: Camera Switch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 856, y: -72}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -2820458111465507384}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -2390725806206516779}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -2820458111465507384}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -3463448421942353358}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+  disablePlayerCam: 1
+  playerCam: PlayerCamera_Cam01
+  disableCam: Demo_NPC_Cam2
+  enableCam: Demo_NPC_Cam1
+--- !u!114 &-2428321645813152542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae366b8585f80457386e342384c4b4c5, type: 3}
+  m_Name: Player Freeze
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -568, y: -72}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -2428321645813152542}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6962090570863234801}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: -2428321645813152542}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -9219739279416973714}
+        reroutePoints: []
+      - fieldName: nextNode
+        node: {fileID: -734712245057847297}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+  freezePlayer: 1
+--- !u!114 &-2390725806206516779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680271590a95140fdba1c40dfc3c6148, type: 3}
+  m_Name: Choice
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1176, y: -40}
+  ports:
+    keys:
+    - input
+    - Choice 0
+    - Choice 1
+    values:
+    - _fieldName: input
+      _node: {fileID: -2390725806206516779}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -2820458111465507384}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Choice 0
+      _node: {fileID: -2390725806206516779}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2349016735533706255}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Choice 1
+      _node: {fileID: -2390725806206516779}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 5532889561137176851}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: {fileID: 0}
+  speakerName: Mii
+  dialogueText: Want to play some wii sports bowling?
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  choices:
+  - choiceText: Sure
+  - choiceText: No!
+--- !u!114 &-734712245057847297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d282fa4354750450e900e914f1583545, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -856, y: -72}
+  ports:
+    keys:
+    - nextNode
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: -734712245057847297}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -2428321645813152542}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  nextNode: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f1bd816e3cb564e8f4f8f29e2ed6fb, type: 3}
+  m_Name: DemoTest
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -734712245057847297}
+  - {fileID: -6962090570863234801}
+  - {fileID: 2299827051870374064}
+  - {fileID: -3463448421942353358}
+  - {fileID: 6122499750953490694}
+  - {fileID: -2820458111465507384}
+  - {fileID: -2390725806206516779}
+  - {fileID: 5532889561137176851}
+  - {fileID: 2349016735533706255}
+  - {fileID: -3888240308193415508}
+  - {fileID: -2428321645813152542}
+  - {fileID: -5646640554281605270}
+  - {fileID: -9219739279416973714}
+  - {fileID: 6139159003301733982}
+  startNode: {fileID: -734712245057847297}
+--- !u!114 &2299827051870374064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -8, y: -24}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 2299827051870374064}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6122499750953490694}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 2299827051870374064}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: -6962090570863234801}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Mii
+  dialogueText: Hello there
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+--- !u!114 &2349016735533706255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1512, y: 72}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 2349016735533706255}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6139159003301733982}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 2349016735533706255}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Choice 0
+        node: {fileID: -2390725806206516779}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Mii
+  dialogueText: Yay, let's go!
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+--- !u!114 &5532889561137176851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9071c8e61b9428895bac6f487870bb, type: 3}
+  m_Name: Monologue
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1512, y: 264}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 5532889561137176851}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6139159003301733982}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 5532889561137176851}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Choice 1
+        node: {fileID: -2390725806206516779}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: Mii
+  dialogueText: Aww, okay.
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+--- !u!114 &6122499750953490694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f1d94eb19b34337aef9a24967d50fd, type: 3}
+  m_Name: Camera Switch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 248, y: -72}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 6122499750953490694}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3463448421942353358}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 6122499750953490694}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 2299827051870374064}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+  disablePlayerCam: 1
+  playerCam: PlayerCamera_Cam01
+  disableCam: Demo_NPC_Cam1
+  enableCam: Demo_NPC_Cam2
+--- !u!114 &6139159003301733982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f1d94eb19b34337aef9a24967d50fd, type: 3}
+  m_Name: Camera Switch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1816, y: 72}
+  ports:
+    keys:
+    - nextNode
+    - input
+    values:
+    - _fieldName: nextNode
+      _node: {fileID: 6139159003301733982}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5646640554281605270}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 6139159003301733982}
+      _typeQualifiedName: DialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: nextNode
+        node: {fileID: 5532889561137176851}
+        reroutePoints: []
+      - fieldName: nextNode
+        node: {fileID: 2349016735533706255}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  speakerName: 
+  dialogueText: 
+  audioClip: {fileID: 0}
+  animationClip: {fileID: 0}
+  nextNode: {fileID: 0}
+  disablePlayerCam: 0
+  playerCam: PlayerCamera_Cam01
+  disableCam: Demo_NPC_Cam1
+  enableCam: PlayerCamera_Cam01
