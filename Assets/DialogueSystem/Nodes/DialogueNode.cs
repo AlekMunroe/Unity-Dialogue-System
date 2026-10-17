@@ -10,6 +10,9 @@ public abstract class DialogueNode : Node
     public AnimationClip animationClip;
     public string targetAnimationObjectName;
 
+    // Controls if the editor shows the dialogue fields inherited from here
+    public virtual bool ShowDialogueFields => false;
+
     //This will show if it is a choice node or not, by default it is not
     public virtual bool IsChoiceNode => false;
 

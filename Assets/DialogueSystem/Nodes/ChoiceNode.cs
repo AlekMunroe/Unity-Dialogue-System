@@ -16,6 +16,8 @@ public class ChoiceNode : DialogueNode
 
     public Choice[] choices; //The array of choices, this will be used for the buttons
 
+    public override bool ShowDialogueFields => true;
+
     public override bool IsChoiceNode => true;
 
     protected override void Init()

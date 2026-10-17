@@ -3,6 +3,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "MonologueNode", menuName = "Dialogue/MonologueNode")]
 public class MonologueNode : DialogueNode
 {
+    public override bool ShowDialogueFields => true;
+
     [Output] public DialogueNode nextNode;
     public string objectName = "DialogueAudioSource_Null";
 
